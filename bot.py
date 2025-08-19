@@ -66,12 +66,13 @@ class Bot:
                 sleep(random.choice(self.wait))
                 person_name = self.driver.find_element(By.CLASS_NAME,"truncate").text
                 self.file.write(person_name+"\n")
-
+                
 
             except Exception as e:
                 print("error occured in massgae click", e)
+                break
 
-
+ 
 
 
 

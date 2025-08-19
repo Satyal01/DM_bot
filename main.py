@@ -11,7 +11,7 @@ from bot import Bot
 
 
 
-obj = Bot("ankitsatyal6@gmail.com","Linkdinsatyal!1")
+obj = Bot("yourUserName","yourPassword")
 
 obj.coldDm()
 
